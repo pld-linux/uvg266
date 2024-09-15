@@ -1,0 +1,12 @@
+--- uvg266-0.8.1/src/uvg266.pc.in.orig	2024-07-01 11:53:04.000000000 +0200
++++ uvg266-0.8.1/src/uvg266.pc.in	2024-09-15 08:46:55.393097414 +0200
+@@ -1,7 +1,7 @@
+ prefix=@CMAKE_INSTALL_PREFIX@
+ exec_prefix=${prefix}
+-libdir=${prefix}/lib
+-incdir=${prefix}/include
++libdir=@CMAKE_INSTALL_FULL_LIBDIR@
++incdir=@CMAKE_INSTALL_FULL_INCLUDEDIR@
+ 
+ Name: libuvg266
+ Description: @CMAKE_PROJECT_DESCRIPTION@
