@@ -35,7 +35,7 @@ Pliki nagłówkowe biblioteki UVG266.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 install -d build
